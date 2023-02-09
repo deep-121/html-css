@@ -32,3 +32,13 @@ Applying CSS to HTML
 External stylesheet
 Internal stylesheet
 Inline styles
+
+float clear
+font-fase
+normalize css
+flexgrow
+flexshrink
+transform
+aniamtion
+transition
+grid

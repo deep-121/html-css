@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="./htmlcss.css" />
+    <title>Html Form</title>
+</head>
+
+<body>
+    <div class="main">
+        <form action="./htmlcss.html" target="_top" method="get">
+            <h1> Add Record </h1>
+            <div class="info">
+                <label for="location">Location Name </label><br><br>
+                <input type="text" id="location" name="location"><br>
+            </div>
+            <br>
+            <div class="info">
+                <label for="description">Location Description </label><br><br>
+                <textarea id="description" name="description" rows="9" cols="40"></textarea><br>
+            </div>
+            <br>
+            <div>
+                <label for="status">Status:</label><br><br>
+                <input type="radio" id="Active" name="status" value="Active">
+                <label for="Active">Active</label>
+                <input type="radio" id="Inactive" name="status" value="Inactive">
+                <label for="Inactive">Inactive</label>
+            </div>
+            <br>
+            <input type="submit" name="Add" id="add" value=" Add ">
+        </form>
+    </div>
+</body>
+
+
+</body>
+
+</html>

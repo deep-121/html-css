@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./registration.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>Registration Form</h1>
+      <form>
+        <label>First Name</label>
+        <input type="text" name="firstname" placeholder="firstname" class="fname"/>
+
+        <label>Last Name </label>
+        <input type="text" name="lastname" placeholder="lastname" class="lname"/>
+
+        <label>Age</label>
+        <input type="number" name="age" maxlength="2" class="age"/>
+
+        
+        <label>Gender:</label>
+        <span><input type="radio" name="gender" value="Male" />
+        Male
+        <input type="radio" name="gender" value="Female" />
+        Female</span>
+    
+        <label>Mobile No</label>
+        <input type="number" name="mobile" class="mobile"/>
+
+        <label>Address</label>
+        <textarea name="address" class="address"></textarea>
+
+        <input type="submit" value="Submit" class="submit"/>
+      </form>
+    </div>
+  </body>
+</html>
