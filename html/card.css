@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+.main{
+    border-radius: 30px;
+    padding: 40px;
+    width: 40%;
+    background-color: #f188e9a1;
+}
+.user{
+    border:  10px solid rgb(233, 216, 216);
+    border-radius: 50%;
+    height: 150px;
+}
+.position{
+    padding-top: 20px ;
+    font-size: 20px;
+}
+.apps{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.site{
+    height: 36px;
+    border-radius: 50%;
+    border: 2px solid white;
+}

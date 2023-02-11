@@ -6,22 +6,34 @@
     <title>Html Form</title>
   </head>
   <body>
-    <h1>Html Form</h1>
+    <h1>Create Html Form</h1>
     <form action="./form.html" target="_top" method="get">
-      <header><h2>Add Record</h2></header>
+      <h1>Add Record</h1>
       <div>
-        <label>Location Name</label><br />
-        <input type="text" name="LocationName" id="LocationName" /><br />
-        <label>Location Description</label><br />
-        <textarea name="LocationDescription"></textarea><br />
-        <label>Status:</label><br />
-        <input type="radio" name="radio" value="Active" id="Active" />
-         <label for="Active">Active</label>
-        <input type="radio" name="radio" value="Inactive" id="Inactive" />
-        <label for="Inactive">Inactive</label><br />
-        <input type="submit" value="Submit" />
+        <label for="location">Location Name </label><br /><br />
+        <input type="text" id="location" name="location" /><br />
       </div>
+      <br />
+      <div>
+        <label for="description">Location Description </label><br /><br />
+        <textarea
+          id="description"
+          name="description"
+          rows="9"
+          cols="40"
+        ></textarea
+        ><br />
+      </div>
+      <br />
+      <div>
+        <label for="status">Status:</label><br /><br />
+        <input type="radio" id="Active" name="status" value="Active" />
+        <label for="Active">Active</label>
+        <input type="radio" id="Inactive" name="status" value="Inactive" />
+        <label for="Inactive">Inactive</label>
+      </div>
+      <br />
+      <input type="submit" name="Add" id="Add" value=" Add " />
     </form>
   </body>
 </html>
-<div></div>

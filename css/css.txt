@@ -32,3 +32,23 @@ Applying CSS to HTML
 External stylesheet
 Internal stylesheet
 Inline styles
+
+
+padding : top right bottom left
+margin : top right bottom left
+position : relative ,absolute, fixed,staic 
+flex-box :   display:flex ;
+            align-items
+            justify-content
+            flex-direction
+            flex-grow
+            flex-shrink
+            flex-wrap
+float : clear , float: fase 
+normalize css
+flexgrow
+flexshrink
+transform
+aniamtion
+transition
+grid
